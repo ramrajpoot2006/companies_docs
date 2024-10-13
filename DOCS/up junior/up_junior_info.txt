@@ -1,0 +1,7 @@
+Registration num: 2116022149
+email
+pwd: Arya#123
+
+Declaration file size should be less than 150 kb
+Photo: not more than 50 kb
+Signature: not more than 20 kb

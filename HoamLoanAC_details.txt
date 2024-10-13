@@ -1,0 +1,23 @@
+Old HL:
+loan a/c: 3236406252
+	intrest paid: 80000
+	Sanction date: 12/02/2013
+	interest:7.1
+	emi amt: 11423
+	Tenure:84/239
+	Interest for 21/22:
+	Date of Possession:14/11/2013	
+	
+	loan a/c: 4064189684
+	sanction date:: 27/01/2021
+	interest:6.85
+	amount: 1500000
+	EMI amt: 10677
+	Tenure: 0/297
+	Interest for 21/22: 1637576,     115000
+	Date of Possession:06/10/2021	
+
+	
+Address: central bank of india Ayodhya, Uttar Pradesh 224123	
+
+	

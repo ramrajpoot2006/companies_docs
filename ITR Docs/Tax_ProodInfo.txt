@@ -1,0 +1,27 @@
+SBI PPF: 		10000
+LIC-1(25k):275036838  	26,675.28
+LIC-2:145564320			39,200
+LIC-3:244195338			55,737
+Tution fees:			9000
+
+Total:					130612			
+
+HL-1
+
+HL-2
+
+Rent Recipet:  6  
+
+
+Hi Siddiqui, Nazibul, I want to share a concern from India Team wrt Q1 meeting timings.
+
+Actually with recent shifts, Sprint Planning & Pre Ref are now from 6:30 IST to 7:30 IST which is late for the team.
+
+I request you to look into it.
+
+
+eGiftcard needs to enable for few countries in Production
+digital fulfillment method & shipping method
+
+
+9289393651 = 27781

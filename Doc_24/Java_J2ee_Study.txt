@@ -1,0 +1,73 @@
+1.Functional Interface
+
+
+Functions allow you to break down complex code into manageable pieces, making your code easier to read and maintain. Modularity: Functions enable you to create modular code, where each function performs a specific task. This makes debugging and testing easier.
+
+A functional interface can't extend another interface which has an abstract method, because it will void the fact that a functional interface allows only one abstract method, however functional interface can inherit another interface if it contains only static and default methods in it.
+
+https://www.developer.com/java/java-functional-interfaces/
+https://www.geeksforgeeks.org/functional-interfaces-java/
+
+1. Consumer : accept oen argument but doesn't return any value,   method: void accpet(T t)
+2. Predicate : acctept one arg and return ture/false, 			  method: boolean test(T t)
+3. Function : A function is a type of functional interface in Java that receives only a single argument and returns a value after the required processing.
+		method: apply()
+		https://www.geeksforgeeks.org/function-interface-in-java-with-examples/
+		
+		Hence this functional interface takes in 2 generics namely as follows:
+
+		T: denotes the type of the input argument
+		R: denotes the return type of the function
+		Example
+			Function<Integer, Double> half = a -> a / 2.0;
+			System.out.println(half.apply(10));
+			
+			Function<Integer, Double> half = a -> a / 2.0;
+            half = half.andThen(a -> 3 * a);
+            System.out.println(half.apply(10));
+			
+			
+2.Null check in Java 8	
+		https://www.baeldung.com/java-optional
+		
+		String name = "text";
+		Optional<String> opt = Optional.of("");
+		assertTrue(opt.isPresent());
+		
+		the argument passed to the of() method can’t be null. Otherwise, we’ll get a NullPointerException:
+		but if we pass null value then it returns NullPointerException
+		
+		String name = null;
+		Optional.of(name);
+		
+		But in case we expect some null values, we can use the ofNullable() method:
+		
+		String name = "text";
+		Optional<String> opt = Optional.ofNullable(name);
+		assertTrue(opt.isPresent());
+		
+		By doing this, if we pass in a null reference, it doesn’t throw an exception but rather returns an empty Optional object
+		
+		
+		
+################# JAVA 11 ##################
+https://www.educative.io/answers/what-is-optionalisempty-in-java
+isEmpty():  sEmpty method of the Optional class is an object method that is used to check if the object contains a value or not. The method returns true if a value is not present. Otherwise, it returns false.
+
+
+################# JAVA 17  ################# 	
+
+################# 12th Fac #################
+
+https://12factor.net/
+https://www.baeldung.com/spring-boot-12-factor	
+
+The twelve-factor methodology is a set of twelve best practices to develop applications developed to run as a service
+
+
+################ SOLID Principles ###############
+https://www.baeldung.com/solid-principles
+	
+
+
+	
